@@ -1,0 +1,129 @@
+.l
+{
+    height: 616px;
+    margin: 20px 40px 20px 40px ;
+    border: 1px solid silver;
+    overflow: hidden;
+    padding-left: 7px;
+    background-color: white;
+}
+.j
+{
+    border-bottom: 1px solid silver;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    padding-left: 20px;
+    padding-top: 15px;
+    padding-bottom: 40px;
+    height: 40px;
+   
+}
+.k
+{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding-bottom:12px ;
+    overflow: hidden;
+  /* padding-left: 30px; */
+  gap: 30px;
+  
+
+  padding: 10px;
+  margin-left: 21px;
+}
+.m
+{
+    height: 400px;
+    padding: 10px;
+    /* border: 1px solid rgb(235, 230, 230); */
+   box-shadow:inset 0px 0px 2px 2px rgb(235, 230, 230);
+   margin-top: 60px;
+   flex: 250px;
+ /* background-color: blue; */
+}
+
+.n
+{
+    height: 200px;
+
+}
+
+.s
+    {
+       margin-left: 40px;
+    }
+.j span
+{
+    font-size: 18px;
+}
+.jspan2,.jspan3
+{
+    margin-left: 25px;
+}
+@media screen and (max-width:555px) 
+{
+   /* .J span
+   {
+    font-size: 10px;
+   } */
+   .j span
+{
+    font-size: 15px;
+    padding-left: 0;
+}
+.j
+{
+    padding-left: 0;
+    padding-right: 0px;
+    overflow: hidden;
+}
+.jspan2,.jspan3
+{
+    padding-left: 0;
+    margin-left: 10px;
+}
+}
+input[type="radio"]
+{
+    accent-color: red;
+}
+@media screen and (max-width:555px) 
+{
+   /* .J span
+   {
+    font-size: 10px;
+   } */
+   .j span
+{
+    font-size: 13px;
+    padding-left: 0;
+}
+.j
+{
+    padding-left: 0;
+    padding-right: 0px;
+}
+.jspan2,.jspan3
+{
+    padding-left: 0;
+    margin-left: 8px;
+}
+}
+.jspan1:hover,.jspan2:hover,.jspan3:hover
+{
+color: red;
+font-weight: bold;
+}
+@media screen and (max-width:389px) 
+{
+    .l
+    {
+        margin: 20px 0 20px 0;
+    }
+   .s{
+    margin-left: 0px;
+   }
+}
+
+

@@ -1,0 +1,70 @@
+.i
+{
+    width: 100%;
+    height: 800px;
+        background-image: url("Pulsar-400-new2.jpg"); 
+        background-size: cover; /* Ensures image covers the div */
+        background-position: center; /* Center the image */
+        background-repeat: no-repeat;
+    box-sizing: border-box;
+}
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.o
+{
+    width: 29vw;
+    min-height: 60vh;
+    background-color: white;
+    margin: 35px 0 0 80px;
+    border-radius: 20px;
+    padding: 30px;
+    float: left;
+}
+
+.p::placeholder
+{
+    color: aliceblue;
+    font-weight: bold;
+}
+.o h1
+{
+    font-size: 45px;
+}
+@media screen and (max-width:1270px) 
+{
+    .o
+    {
+        width: 400px;
+    }    
+}
+@media screen and (max-width:1029px) {
+
+    .o
+    {
+        display: none;
+    }
+    #mai
+    {
+        display: none;
+    }
+    .i
+    {
+        background-image: url("Pulsar-400-mobile.jpg");
+
+        background-size: cover; /* Ensures image covers the div */
+        background-position: center; /* Center the image */
+        background-repeat: no-repeat;
+    }
+}
+@media screen and (max-width:360px) {
+    .i
+    {
+        height: 380px;
+        background-image: url("https://bikekharido.s3.ap-south-1.amazonaws.com/wp-content/uploads/2024/05/Pulsar-400-new-mobile.jpg");
+    }
+
+}

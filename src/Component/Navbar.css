@@ -1,0 +1,114 @@
+.a
+{
+    max-width: 420px;
+    
+    border: none;
+    border: 1px solid rgb(235, 230, 230);
+    box-shadow: inset 0px 1px 1px rgb(235, 230, 230)  ;
+    outline: none;
+    padding: 10px;
+    padding-right: 190px;
+}
+.b
+{
+    color: aliceblue;
+    padding: 11px;
+    background-color: red;
+    border: 1px solid black;
+}
+.c
+{
+    height: 45px;
+    margin-left: 24px;
+}
+.d
+{
+min-height: 80px;
+   padding: 20px;
+   padding-bottom: 20px;
+   background-color: white;
+ 
+}
+
+.f
+{
+    color:white;
+    border-bottom: 1px solid white;
+    text-align: start;
+    margin-left: 10px;
+}
+.g
+{
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+
+}
+.h
+{
+    position: absolute;
+    top: 100%;
+    left: 0;
+    border: 1px solid #ccc;
+    background-color: white;
+    z-index: 1;
+    width: 230px;
+    background: rgb(229, 25, 25);
+   background-color: red;
+
+}
+
+#mai
+{
+    display: flex;  
+    flex-wrap: wrap;
+  background-color: white;
+  line-height: 40px;
+}
+.box
+{
+    flex: 80px;
+    padding: 11px;
+    text-align: center;
+    border: 1px solid rgb(235, 230, 230);
+}
+.b1
+{
+    flex: 6;
+    text-align: start;
+}
+.u
+{
+    font-size: 18px;
+   
+}
+
+@media screen and (max-width:731px)
+{
+    .d
+    {
+        height: 130px;
+    }
+    .a
+    {
+        padding-right: 0px;
+    }
+}
+@media screen and (max-width:1300px)
+{
+    .b1
+    {
+        flex:1;
+    }
+    .box,.u
+    {
+        font-size: 14px;
+    }
+}
+
+
+
+
+
+  
+
